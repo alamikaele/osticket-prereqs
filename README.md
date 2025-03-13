@@ -49,7 +49,8 @@ This tutorial walks you through the installation of the OsTicket System through 
 <p>
 Log into Microsoft Azure and head to the virtual machines tab. Click on the + Create Button and press create Azure Virtual Machine.
 </p>
-<br />
+
+
 
 <p>
 <img src="https://i.imgur.com/b77X0tQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -64,12 +65,46 @@ Log into Microsoft Azure and head to the virtual machines tab. Click on the + Cr
 - **Username and password:** Any (just remember them)  
 
 </p>
-<br />
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Setup your remote desktop. If you are using MacOs as I was, you would need to first download "Windows App" from the app store. Open remote desktop then input public IP address found from the Virtual Machine just created in Microsoft Azure.
 </p>
-<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login to the virtual machine through the remote desktop. You will open up the files downloaded in the beginning of this tutorial in the virtual machine just created. 
+</p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You will need to enable IIS in Windows. Go to search bar type "Control Panel" > click "Turn Windows features on or off" > Check Internet Information Services box 
+</p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You will then click into "World Wide Web Services" > Click "Application Development Features" > Check the "CGI" box. You have now enabled IIS in Windows with CGI
+</p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You will then click into "World Wide Web Services" > Click "Application Development Features" > Check the "CGI" box. You have now enabled IIS in Windows with CGI
+</p>
+
+<h3> Installing PHP Manager </h3>
+
+
+
+

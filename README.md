@@ -3,8 +3,12 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial walks you through the installation of the OsTicket System through windows virtual machine as well as the required resources to peform this installation.
 
+<h4>Sidenotes:</h4>
+
+- The screenshots shown below are from macbook pro 13 (what I used)
+- Your computer can use any operating system
 
 <h2>Video Demonstration</h2>
 
@@ -12,8 +16,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Azure (Virtual MachinesCompute)
+- Windows 10 Pro (Done through Virtual Machine)
+- Remote Desktop (RDP)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -22,11 +27,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h3>Should be done before doing this lab:</h3>
+
+- Microsoft Azure Subscription
+- Resource Group in Microsoft Azure (to place the virtual machine in)
+
+<h3>Will be done in this lab</h3>
+
+- Create Virtual Machine in Mircrosoft Azure 
+- Install OsTicket
+- Install MySQL
+- Install HeidiSQL
+- Install PHP
+- Install Microsoft Visual C++ 
 
 <h2>Installation Steps</h2>
 

@@ -144,3 +144,26 @@ Click on "MySQL 5.5.62" link in the google doc and click next and agree to all t
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h3> Configurations in IIS </h3>
+<p>
+Open Internet Information Services (IIS) Manager in Windows search bar. Open PHP Manager > Register new PHP version > Browse to PHP folder made in Windows(:C) drive > open "php-cgi" application
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+In Internet Information Services (IIS) Manager, stop and start IIS by two ways: (1) under actions > stop > start (2) under connections > right click "osticket-vm" > stop > start
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h3> Install OsTicket </h3>
+<p>
+In “osTicket-Installation-Files” right click and extract "php-7.3.8-nts-Win32-VC15-x86.zip". Copy upload folder inside of the "php-7.3.8-nts-Win32-VC15-x86" folder we just extracted, paste it into the Windows(C:) > inetpub > wwwroot folder. **CRITICAL STEP:** Rename it "osTicket". Must say exactly "osTicket" or there will be problems down the road  
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>

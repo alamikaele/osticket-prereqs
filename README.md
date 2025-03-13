@@ -44,17 +44,14 @@ This tutorial walks you through the installation of the OsTicket System through 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/mQTqNDo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Log into Microsoft Azure and head to the virtual machines tab. Click on the + Create Button and press create Azure Virtual Machine.
 </p>
-
-
-
 <p>
-<img src="https://i.imgur.com/b77X0tQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mQTqNDo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+
+
 <p>
 
 - **Create a new resource group:** `osTicket`  
@@ -65,46 +62,77 @@ Log into Microsoft Azure and head to the virtual machines tab. Click on the + Cr
 - **Username and password:** Any (just remember them)  
 
 </p>
-
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b77X0tQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+
 <p>
 Setup your remote desktop. If you are using MacOs as I was, you would need to first download "Windows App" from the app store. Open remote desktop then input public IP address found from the Virtual Machine just created in Microsoft Azure.
 </p>
-
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Login to the virtual machine through the remote desktop. You will open up the files downloaded in the beginning of this tutorial in the virtual machine just created. 
 </p>
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 You will need to enable IIS in Windows. Go to search bar type "Control Panel" > click "Turn Windows features on or off" > Check Internet Information Services box 
 </p>
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 You will then click into "World Wide Web Services" > Click "Application Development Features" > Check the "CGI" box. You have now enabled IIS in Windows with CGI
 </p>
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 You will then click into "World Wide Web Services" > Click "Application Development Features" > Check the "CGI" box. You have now enabled IIS in Windows with CGI
 </p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 
 <h3> Installing PHP Manager </h3>
 
+<p>
+Inside osTicket-Installation-Files click and open "PHPManagerForIIS_V1 5.0 msi". Agree and click next, accepting all steps in order to install
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+<h3> Installing Rewrite Manager </h3>
 
+<p>
+Inside osTicket-Installation-Files click and open "rewrite_amd64_en-US.msi". Agree and click next, accepting all steps in order to install
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+<h3> Create directory called C:\PHP </h3>
+<p>
+Open search bar and click on file explorer. Go to the Windows(C:) and create a new folder called "PHP". Inside osTicket-Installation-Files right click on "php-7.3.8-nts-Win32-VC15-x86.zip" and extract all, make sure to browse to the PHP folder we just created in the Windows(C:) drive. Select that folder and click extract.
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h3> Create directory called C:\PHP </h3>
+<p>
+Open search bar and click on file explorer. Go to the Windows(C:) and create a new folder called "PHP". Inside osTicket-Installation-Files right click on "php-7.3.8-nts-Win32-VC15-x86.zip" and extract all, make sure to browse to the PHP folder we just created in the Windows(C:) drive. Select that folder and click extract.
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>

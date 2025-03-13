@@ -27,10 +27,9 @@ This tutorial walks you through the installation of the OsTicket System through 
 
 <h2>List of Prerequisites</h2>
 
-<h3>Should be done before doing this lab:</h3>
+<h3>Should have before doing this lab:</h3>
 
 - Microsoft Azure Subscription
-- Resource Group in Microsoft Azure (to place the virtual machine in)
 
 <h3>Will be done in this lab</h3>
 
@@ -39,23 +38,31 @@ This tutorial walks you through the installation of the OsTicket System through 
 - Install MySQL
 - Install HeidiSQL
 - Install PHP
-- Install Microsoft Visual C++ 
+- Install Microsoft Visual C++
+
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mQTqNDo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log into Microsoft Azure and head to the virtual machines tab. Click on the + Create Button and press create Azure Virtual Machine.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b77X0tQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- **Create a new resource group:** `osTicket`  
+- **Virtual machine name:** `osticket-vm`  
+- **Select a region:** Any (just remember which one)  
+- **Image:** `Windows 10 Pro, version 22Hz - x64 Gen2`  
+- **Size:** Any (preferably 2/+ CPUs)  
+- **Username and password:** Any (just remember them)  
+
 </p>
 <br />
 

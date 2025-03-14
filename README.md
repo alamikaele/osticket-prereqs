@@ -37,7 +37,7 @@ This tutorial walks you through the installation of the OsTicket System through 
 
 <h3>Will be done in this lab</h3>
 
-- Create Virtual Machine in Mircrosoft Azure 
+- Create Virtual Machine in Mircrosoft Azure
 - Install OsTicket
 - Install MySQL
 - Install HeidiSQL

@@ -26,10 +26,6 @@ This tutorial walks you through the installation of the OsTicket System through 
     </a>
 </p>
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual MachinesCompute)

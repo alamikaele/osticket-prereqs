@@ -77,7 +77,7 @@ Setup your remote desktop. If you are using MacOs as I was, you would need to fi
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s2mUK5U.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -87,25 +87,16 @@ Login to the virtual machine through the remote desktop. You will open up the fi
 
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b6zoCFX.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <p align="center">
-You will need to enable IIS in Windows. Go to search bar type "Control Panel" > click "Turn Windows features on or off" > Check Internet Information Services box 
+You will need to enable IIS in Windows. Go to search bar type "Control Panel" > Under Programs click "uninstall a program" > click "Turn Windows features on or off" > Check Internet Information Services box 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
-</p>
-<br/>
-
-<p align="center">
-You will then click into "World Wide Web Services" > Click "Application Development Features" > Check the "CGI" box. You have now enabled IIS in Windows with CGI
-</p>
-<br/>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/swzA81u.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -114,7 +105,7 @@ You will then click into "World Wide Web Services" > Click "Application Developm
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Re5xrV9.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -127,7 +118,7 @@ Inside osTicket-Installation-Files click and open "PHPManagerForIIS_V1 5.0 msi".
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ap2qO5O.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -138,7 +129,7 @@ Inside osTicket-Installation-Files click and open "rewrite_amd64_en-US.msi". Agr
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/E1Jzroz.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -149,7 +140,7 @@ Open search bar and click on file explorer. Go to the Windows(C:) and create a n
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/f5w5l7U.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -160,14 +151,14 @@ Click on "VC_redist.x86.exe" in the google doc and click next and agree to all t
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MhHrs0R.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <h3 align="center"> Download MySQL </h3>
 
 <p align="center">
-Click on "MySQL 5.5.62" link in the google doc and click next and agree to all terms. When on the Choose Setup Type screen, click on "Typical" then finish downloading. When prompted choose "Standard Configuration". For new root password and confirm just make a easy password. Can be something as easy as "root". A good practice is to have it saved on notepad in the virtual machine.
+Click on "MySQL 5.5.62" link right here: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view and click next and agree to all terms. When on the Choose Setup Type screen, click on "Typical" then finish downloading. When prompted choose "Standard Configuration". For new root password and confirm just make a easy password. Can be something as easy as "root". A good practice is to have it saved on notepad in the virtual machine.
 </p>
 <br/>
 <p>

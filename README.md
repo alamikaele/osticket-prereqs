@@ -162,7 +162,7 @@ Click on "MySQL 5.5.62" link right here: https://drive.google.com/file/d/1_OWh9p
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iua85Hn.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -173,7 +173,7 @@ Open Internet Information Services (IIS) Manager in Windows search bar. Open PHP
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LD992m9.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -182,14 +182,14 @@ In Internet Information Services (IIS) Manager, stop and start IIS by two ways: 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PyJQdjV.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <h3 align="center"> Install OsTicket </h3>
 
 <p align="center">
-In “osTicket-Installation-Files” right-click and extract "php-7.3.8-nts-Win32-VC15-x86.zip". Copy the upload folder inside the "php-7.3.8-nts-Win32-VC15-x86" folder we just extracted, and paste it into the Windows(C:) > inetpub > wwwroot folder.
+In “osTicket-Installation-Files” right-click and extract "osTicket-v1.15.8.zip" into the same location ("osTicket-Installation-Files”). Copy the upload folder inside the "osTicket-v1.15.8.zip" folder we just extracted, and paste it into the Windows(C:) > inetpub > wwwroot folder.
 </p>
 
 <p align="center">
@@ -197,7 +197,7 @@ In “osTicket-Installation-Files” right-click and extract "php-7.3.8-nts-Win3
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dRZM9ty.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -208,7 +208,7 @@ Open IIS as Admin (right click on IIS and click "run as administrator" In Intern
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MVolxI1.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -221,7 +221,7 @@ Enable 3 things: (1) php_imap.dll (2) php_intl.dll (3) php_opcache.dll. Refresh 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xH9kfMd.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -230,7 +230,7 @@ Rename "ost-config.php" files in Windows(C:) drive. C: > inetpub > wwwroot > osT
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SI1NVc4.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -239,7 +239,7 @@ Right click "ost-config.php" > Properties > Security > Advanced > Disable Inheri
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Or1qbre.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -258,7 +258,7 @@ On the osTicket Installer from the browser, click "continue".
 <p>
 <br/>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iI5jn1r.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -269,27 +269,27 @@ Open “osTicket-Installation-Files” > HeidiSQL_12.3.0.6589_Setup > Agree and 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mlBnyu7.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <p align="center">
-Create database called "osTicket". Right click "Unamed" on left column > create database > name: "osTicket" > OK. 
+Create database called "osTicket". Right click "Unamed" on left column > create new > database > name: "osTicket" > OK. 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KIofPA6.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
 <h3 align="center"> Continue Setting Up osTicket in Browser </h3>
 <br/>
 <p align="center">
-MySQL username: "osTicket" -- password: root -- username: root > install now
+MySQL Database: "osTicket" | MySQL Username: root -- MySQL Password: root > install now
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bEqMnIm.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -298,7 +298,7 @@ Check if osTicket installed. Go back to HeidiSQL > right click osTicket in left 
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bEqMnIm.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
@@ -311,7 +311,7 @@ help desk login page: http://localhost/osTicket/scp/login.php
 </p>
 <br/>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s6IvrdD.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br/>
 
